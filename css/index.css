@@ -5,13 +5,6 @@ body {
     font-family: 'Lora', serif;
 }
 
-html {
-    background-image: url('http://hswatch.ru/wp-content/uploads/2015/04/%D1%84%D0%BE%D0%BD-%D1%81%D0%B0%D0%B9%D1%82%D0%B0.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
 .site-width {
     max-width: 1000px;
     margin: 0 auto;
@@ -37,9 +30,6 @@ img {
     max-width: 100%;
     margin-top: 25px;
 }
-
-
-
 
 #about-me {
     margin-top: 100px;
@@ -123,7 +113,7 @@ footer {
     margin-top: 150px;
 }
 
-.forma {
+.myform {
     margin-top: 50px;
 }
 
@@ -195,8 +185,8 @@ footer {
         justify-content: space-around;
     }
     .flex-container-nav .flex-element li {
-    padding: 24px 0px;
-}
+        padding: 24px 0px;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -212,8 +202,8 @@ footer {
         margin-top: 75px;
     }
     .flex-container-nav .flex-element li {
-    padding: 24px;
-}
+        padding: 24px;
+    }
 }
 
 @media screen and (min-width: 320px) {}
