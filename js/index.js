@@ -1,5 +1,5 @@
 document.querySelector("input[type=submit]").addEventListener("click", sendForm);
-document.getElementById('myform').reset();
+
 function sendForm(e) {
     var form = document.querySelector("form");
     if (form.checkValidity()) {
